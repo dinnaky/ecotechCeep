@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pontos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>ECOTECH | Descarte Correto de Lixo</title>
+</head>
+<body>
+    <div id="fade">
+    <div>
+      <div>
+        <h2>Cadastre o seu endereço</h2>
+        <p>Preencha os campos para podermos enviar seus produtos</p>
+      </div>
+      <form id="address-form">
+        <div>
+          <div>
+            <input
+              type="text"
+              class="form-control shadow-none"
+              id="cep"
+              name="cep"
+              placeholder="Digite o seu CEP"
+              maxlength="8"
+              minlength="8"
+              required
+            />
+            <label for="cep">Digite o seu CEP</label>
+          </div>
+        </div>
+        <div>
+          <div>
+            <input
+              type="text"
+              class="form-control shadow-none"
+              id="address"
+              name="address"
+              placeholder="Rua"
+              disabled
+              required
+              data-input
+            />
+            <label for="address">Rua</label>
+          </div>
+        </div>
+          <div>
+            <input
+              type="text"
+              class="form-control shadow-none"
+              id="neighborhood"
+              name="neighborhood"
+              placeholder="Bairro"
+              disabled
+              required
+              data-input
+            />
+            <label for="neighborhood">Bairro</label>
+          </div>
+        </div>
+          <div>
+            <select
+              class="form-select shadow-none"
+              id="region"
+              disabled
+              required
+              data-input
+            >
+            </select>
+          </div>
+        </div>
+        <div>
+          <button id="save-btn" type="submit">
+            Cadastrar
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="pontos.js"></script>
+<!-- <body id="checkout-page">
+    <header>
+        <div class="nav-header">
+            <div class="logo-header"></div>
+            <nav class="nav-list">
+                <ul>
+                    <a href="#home"><li>HOME</li></a>
+                    <a href="#quemsomos"><li>QUEM SOMOS?</li></a>
+                    <a href="pontos.html"><li>PONTOS DE COLETA</li></a>
+                    <a href="#contato"><li>CONTATO</li></a>
+                    <a href="#doar"><li>DOAR</li></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>  
+        <section class="content-third" id="pontos">
+            <div class="text-third">
+                <h3>PONTOS DE COLETA</h3>
+                <p>Cianorte</p>
+            </div>
+        </section>
+        <div id="fade" class="hide">
+            <div id="loader" class="spinner-border text-info hide" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <div id="message" class="hide">
+                <div class="alert alert-light" role="alert">
+                    <h4>Mensagem:</h4>
+                    <p></p>
+                    <button id="clonse-message" type="button" class="bn"></button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body> -->
+</html>

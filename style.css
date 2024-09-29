@@ -67,7 +67,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 50px;
+    margin: 50px;
 }
 
 .text-primary {
@@ -80,7 +80,7 @@ body{
 
 
 .text-primary h1 {
-    font-size: 58px;
+    font-size: 68px;
 }
 
 .text-primary p {
@@ -150,9 +150,9 @@ body{
 }
 
 .text-secound h2 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
-
+    font-family: "Holtwood One SC", serif;
 }
 
 .button-pointContent a{
@@ -167,4 +167,29 @@ body{
     font-family: "Holtwood One SC", serif;
     text-decoration: none;
     color: var(--white-font);
+}
+
+/* third */
+
+.content-third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 40px 40px;
+}
+
+.text-third {
+    text-align: center;
+}
+
+.text-third h3 {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "Holtwood One SC", serif;
+}
+
+.text-third p {
+    font-size: 22px;
 }
