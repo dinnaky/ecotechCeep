@@ -193,3 +193,32 @@ body{
 .text-third p {
     font-size: 22px;
 }
+
+/* .option-image {
+    width: 200px;
+    height: 200px;
+    background-color: #FE2;
+}
+
+.content {
+    display: flex;
+
+}
+
+.option-text {
+    width: 35%;
+} */
+
+
+.footer_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.footer_info {
+    text-align: center;
+}
