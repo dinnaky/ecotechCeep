@@ -1,0 +1,58 @@
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: var(--font-style);
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+.pontosMenu {
+    flex: 1;
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.pontosMenu img {
+    width: 200px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.option i {
+    margin-right: 10px;
+}
+
+.option:hover {
+    background-color: #45a049;
+}
