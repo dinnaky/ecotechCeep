@@ -1,0 +1,31 @@
+.container.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.contato p {
+    font-size: 18px;
+    width: 300px;
+    text-align: center;
+    margin: 2em 2em;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 24px;
+}
+
+.social-icon {
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #ddd;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>ECOTECH | Doação</title>
+</head>
+<body>
+    <div class="nav-header">
+        <div class="logo-header"></div>
+        <nav class="nav-list">
+            <ul>
+                <a href="index.html"><li>HOME</li></a>
+                <a href="quemsomos.html"><li>QUEM SOMOS?</li></a>
+                <a href="pontos.html"><li>PONTOS DE COLETA</li></a>
+                <a href="contato.html"><li>CONTATO</li></a>
+                <a href="doar.html"><li>DOAR</li></a>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container doacao">
+        <h1>Faça uma Doação para o Ecotech</h1>
+        <p>Nos ajude a continuar promovendo a conscientização sobre o descarte correto de lixo e a reciclagem. Sua contribuição é fundamental para o sucesso de nossa missão.</p>
+
+        <div class="form-section">
+            <h2>Formulário de Doação</h2>
+            <form action="#" method="POST" class="donation-form">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="value">Valor da Doação (R$):</label>
+                    <input type="number" id="value" name="value" min="1" step="any" required>
+                </div>
+
+                <button type="submit" class="button">Doar Agora</button>
+            </form>
+        </div>
+
+        <div class="pix-section">
+            <h2>Doe via PIX</h2>
+            <p class="doarT">Para doar via PIX, escaneie o QR Code abaixo ou use a chave PIX <strong>ecotech@gmail.com</strong>:</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 ECOTECH. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

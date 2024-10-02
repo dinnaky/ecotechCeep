@@ -1,0 +1,91 @@
+/* Página de doação */
+.container.doacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: var(--secound-color);
+}
+
+.container.doacao h1 {
+    font-size: 36px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container.doacao p {
+    font-size: 18px;
+    color: var(--black-font);
+    margin-bottom: 40px;
+    text-align: center;
+    width: 60%;
+}
+
+.form-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.form-section h2 {
+    font-size: 24px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.donation-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group label {
+    font-size: 16px;
+    color: var(--black-font);
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.button {
+    background-color: var(--primary-color);
+    color: var(--white-font);
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #267829;
+}
+
+.pix-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pix-section h2 {
+    font-size: 24px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+
+}
+
+.pix-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
